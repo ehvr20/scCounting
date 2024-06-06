@@ -1,0 +1,26 @@
+{
+    "manifest": "/path/to/project/manifest.json",
+    "reference_genome": "/path/to/project/reference_genome/GRCm39/star-version",
+    "gtf_file": "/path/to/project/reference_genome/Mus_musculus.GRCm39.version.gtf",
+    "cr_transcriptome": "/path/to/project/reference_genome/GRCm39/",
+    "images": {
+        "star": "/path/to/project/singularity_images/STAR_image.sif",
+        "cellranger": "/path/to/project/singularity_images/cellranger_image.sif"
+    },
+    "slurm": {
+        "cpu": {
+            "account": "your-cpu-account",
+            "partition": "your-cpu-partition"
+        },
+        "gpu": {
+            "account": "your-gpu-account",
+            "partition": "your-gpu-partition"
+        }
+    },
+    "resources": {
+        "cores": 28,
+        "memory": 120
+    }
+}
+
+    

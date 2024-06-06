@@ -1,0 +1,25 @@
+{
+    "v1-01": {
+        "refid": "v1-01",
+        "Author": "Elric",
+        "Suspension": "snRNAseq",
+        "Technology": "DropSeq",
+        "Source": "SRA",
+        "BC+UMI": "8+6"
+    },
+    "v1-02": {
+        "refid": "v1-02",
+        "Author": "Alphonze",
+        "Suspension": "snRNAseq",
+        "Technology": "10x",
+        "Source": "SRA",
+        "10x_chemistry": "SCPv2"
+    },
+    "v1-03": {
+        "refid": "v1-03",
+        "Author": "Pride",
+        "Suspension": "scRNAseq",
+        "Technology": "smartseq",
+        "Source": "SRA"
+    }
+}
